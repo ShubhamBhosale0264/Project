@@ -1,0 +1,147 @@
+body{
+    background-color: aquamarine;
+}
+index {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+    padding: 7px;
+    background-color:purple;
+    height: fit-content;
+    border-radius: 100px;
+    color: #fff;
+}
+
+#logo {
+    width: 40px;
+    height:40px;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content:left;
+}
+
+.navbar li {
+    margin-top: 2px;
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: darkgreen; 
+}
+#ser{
+    margin-left: 770px;
+    border-radius: 50px;
+}
+#ser input {
+    height: 19px;
+    border-radius: 100px;
+}
+marquee{
+    color: orange;
+    text-transform: capitalize;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.container1 {
+    display: flex;
+}
+
+.mv,h3 {
+    border-radius: 25px;
+    height: 500px;
+    width: 500px;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+
+.sr {
+    border-radius: 25px;
+    height: 500px;
+    width: 500px;
+    margin-top: 25px;
+    margin-left: 20px; /* Adjust this value as needed */
+}
+h3 a{
+    text-decoration: none;
+}
+.cr{
+    color: darkorchid;
+    padding-left: 530px;
+}
+.rating {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+}
+
+.rating h2 {
+    margin-bottom: 5px;
+}
+
+.rating span {
+    font-size: 30px;
+    margin: 0 5px;
+}
+.mvs {
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    padding-left: 315px;
+
+}
+.rating{
+    color:darkblue;
+}
+.mvs:hover {
+    color: #ff4500; /* Change the color on hover */
+}
+.srs {
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    padding-left: 315px;
+}
+label .srs{
+    right: 20px;
+}
+.srs:hover {
+    color: #ff4500; /* Change the color on hover */
+}
+footer {
+    width: 100px;
+    background-color: #333;
+    border-radius: 200px;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 5px;
+    width: 1320px;
+}
+
+footer p {
+    margin: 0; 
+}
