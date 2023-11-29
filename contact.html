@@ -13,11 +13,11 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">AboutUs</a></li>
             <li><a href="service.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="contact.html">Book Tickets</a></li>
         </ul>
     </div>
         <div class="container">
-            <h2>Contact Us</h2>
+            <h2>Book Your Show Here .......</h2>
             <form>
                 <div>
                     <label for="name">Name:</label>
@@ -29,12 +29,28 @@
                 </div>
                 <div>
                     <label for="Mobile">Mobile:</label>
-                    <input type="number" id="mobile" name="mobile"placeholder=" Enter Mobile Number:" required>
+                    <input type="tel" id="mobile" name="mobile"placeholder=" Enter Mobile Number:" required>
                 </div>
-                <div>
+                <div class="dropdown">
+                    <button class="dropbtn">Select Moives Or WebSeries</button>
+                    <div class="dropdown-content">
+                        <select>
+                          <option value="ironman">IronMan</option>
+                          <option value="captainamerica">Captain America</option>
+                          <option value="thor">Thor</option>
+                          <option value="hawkeye">Hawkeye</option>
+                          <option value="blackwidow">Black Widow</option>
+                          <option value="legendsofshield">Legends Of Shield</option>
+                          <option value="wandavision">Wanda-Vision</option>
+                          <option value="falconandwintersoldier">Falcon And Winter Soldier</option>
+                          <option value="guardiansofgalaxy">Guardian Of Galaxy</option>
+                        </select>
+                      </div>
+                  </div>
+                <!-- <div>
                     <label for="message">Message:</label>
                     <textarea id="message" name="message" rows="4" placeholder="Our Expert Will Respond You Within 24 Hrs......." required></textarea>
-                </div>
+                </div> -->
                 <div>
                     <button type="submit">Submit</button>
                 </div>

@@ -1,6 +1,7 @@
-body{
-    background-color: aquamarine;
+body {
+    background-color: grey;
 }
+
 index {
     margin: 0;
     padding: 0;
@@ -12,7 +13,7 @@ index {
     align-items: center;
     margin-top: 7px;
     padding: 7px;
-    background-color:purple;
+    background-color: black;
     height: fit-content;
     border-radius: 100px;
     color: #fff;
@@ -20,13 +21,13 @@ index {
 
 #logo {
     width: 40px;
-    height:40px;
+    height: 40px;
 }
 
 .navbar {
     list-style: none;
     display: flex;
-    justify-content:left;
+    justify-content: left;
 }
 
 .navbar li {
@@ -42,28 +43,33 @@ index {
 }
 
 .navbar a:hover {
-    color: darkgreen; 
+    color: darkgreen;
 }
-#ser{
-    margin-left: 770px;
+
+#ser {
+    margin-left: 700px;
     border-radius: 50px;
 }
+
 #ser input {
     height: 19px;
     border-radius: 100px;
 }
-marquee{
-    color: orange;
+
+marquee {
+    color: darkred;
     text-transform: capitalize;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bolder;
     font-size: x-large;
 }
+
 .container1 {
     display: flex;
+    flex-direction: row;
 }
 
-.mv,h3 {
+.mv, .h3, .sr {
     border-radius: 25px;
     height: 500px;
     width: 500px;
@@ -71,51 +77,47 @@ marquee{
     margin-left: 100px;
 }
 
+#title-container {
+    text-align: center;
+    padding: 20px;
+}
+
+#titles {
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+#titles:hover {
+    color: red;
+}
+
 .sr {
     border-radius: 25px;
     height: 500px;
     width: 500px;
     margin-top: 25px;
-    margin-left: 20px; /* Adjust this value as needed */
+    margin-left: 20px;
 }
-h3 a{
+
+h3 a {
     text-decoration: none;
 }
-.cr{
+
+.cr {
     color: darkorchid;
     padding-left: 530px;
 }
-.rating {
-    display: inline-block;
-    text-align: center;
-    margin: 10px;
-}
 
-.rating h2 {
-    margin-bottom: 5px;
-}
-
-.rating span {
-    font-size: 30px;
-    margin: 0 5px;
-}
-.mvs {
-    font-size: 18px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #333;
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 10px;
-    padding-left: 315px;
-
-}
-.rating{
-    color:darkblue;
-}
-.mvs:hover {
-    color: #ff4500; /* Change the color on hover */
-}
-.srs {
+.mvs, .srs {
     font-size: 18px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #333;
@@ -124,13 +126,60 @@ h3 a{
     margin-top: 10px;
     padding-left: 315px;
 }
-label .srs{
+
+label .srs {
     right: 20px;
 }
-.srs:hover {
-    color: #ff4500; /* Change the color on hover */
+
+.mvs:hover, .srs:hover {
+    color: #ff4500;
+}
+.wrapper{
+    height: 320px;
+    display: flex;
+    margin: 0;
+    overflow-x:scroll   ;
+    overflow-y: hidden;
+}
+.wrapper .card{
+    margin-right: 200px;
+    min-width: 110px;
+    height: 110px;
+    line-height: 20px;
+    text-align: center;
+}
+.imgname{
+    font-size: larger;
+    font-weight: bolder;
+}
+.card {
+    box-shadow: 0 4px 8px rgba(10, 20, 30, 0.1);
+    width: 18rem;
+    display: inline-block;
+}
+
+.card-img-top {
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+.card-img-top:hover {
+    transform: scale(1.1); 
+}
+.wrapper .card-title{
+    padding-top: 0px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+h1{
+    color: darkgreen;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 footer {
+    margin-top: 30px;
     width: 100px;
     background-color: #333;
     border-radius: 200px;
@@ -141,7 +190,14 @@ footer {
     bottom: 5px;
     width: 1320px;
 }
-
-footer p {
-    margin: 0; 
+.imgname{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
 }
+.imgname:hover{
+    color: red;
+}
+footer p {
+    margin: 0;
+}
+
